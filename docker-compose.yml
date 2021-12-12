@@ -133,8 +133,7 @@ services:
   #       condition: service_healthy
 
   redscan-log4shell:
-    #image: ghcr.io/certmichelin/redscan-log4shell/redscan-log4shell:4.2.0
-    image: redscan-log4shell-local2
+    image: ghcr.io/certmichelin/redscan-log4shell/redscan-log4shell:4.2.0
     env_file:
       - data/environments/red.env
       - data/environments/log4shell.env
